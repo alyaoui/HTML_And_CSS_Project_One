@@ -432,20 +432,21 @@ color: var(--main-color);
   color: var(--main-color);
 }
 /* End Footer */
+/* start scroll-to-top */
 .scroll-to-top {
   width: 35px;
   height: 35px;
   position: fixed;
+  display: block;
   right: 25px;
   bottom: 25px;
-  display: none;
   z-index: 9999;
 }
 .scroll-to-top span {
-  background: linear-gradient(to right, #1368cc 50%, #0075ff 50%) no-repeat scroll right bottom/210% 100% #0075ff;
+  background: linear-gradient(to right, #3b13cc 50%, #1900ff 50%) no-repeat scroll right bottom/210% 100% #0075ff;
   transition: all ease 0.3s;
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
     height: 100%;
     color: #fff;
     text-align: center;
@@ -458,3 +459,4 @@ color: var(--main-color);
   position: relative;
   top: 5px;
 }
+/* End scroll-to-top */
